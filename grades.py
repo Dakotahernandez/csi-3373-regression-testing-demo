@@ -12,9 +12,9 @@ CUTOFFS = [
 def meets_cutoff(score, cutoff):
     """Return True if the score is high enough for this cutoff."""
 
-    # return score > cutoff
+    return score > cutoff
 
-    return score >= cutoff
+    #return score >= cutoff
 
 
 def letter_grade(score):
